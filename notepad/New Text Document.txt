@@ -1,0 +1,26 @@
+//----------------------------------------------
+package.json
+//----------------------------------------------
+{
+  "name": "electron-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder" // Bunu ekliyoruz
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.6",
+    "electron-builder": "^24.13.3"  // Bunu EKliyourz
+  }
+}
+
+
+//-----------------------------------------
+Terminal
+//-----------------------------------------
+npm install --dev electron-builder // kütüphaneyi yüklüyoruz
+npm run build // projeyi build ediyoruz
